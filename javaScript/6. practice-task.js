@@ -34,11 +34,33 @@ for (let num = 0; num <= 100; num++) {
 
 
 
-let gameNum = 20;
-let userNum;
+// let gameNum = 20;
+// let userNum;
 
-do {
-    userNum = prompt("enter correct number");
-} while (gameNum != userNum);
+// do {
+//     userNum = prompt("enter correct number");
+// } while (gameNum != userNum);
 
-console.log("you entered correct number");
+// console.log("you entered correct number");
+
+
+
+
+
+
+/***************************************
+ * Qs3. prompt the user to enter their full name. generate a username for them based on the input. start username with @, followed by their full name and ending with the fullName length.
+ *************************************/
+
+
+let fullName = prompt("Enter Your Full  Name Without Space");
+
+let nameUser = "@" + fullName + fullName.length;
+console.log(nameUser);
+
+let res = "@".concat(fullName) + fullName.length
+console.log(res);
+
+let result = `@${fullName}${fullName.length}`;
+console.log(result);
+

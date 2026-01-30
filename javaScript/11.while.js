@@ -64,7 +64,7 @@ while (j <= 10) {
 // increment 
 let i = 10;
 while (i <= 20) {
-    console.log(i)
+    console.log(i);
     i++;
 };
 

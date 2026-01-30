@@ -46,3 +46,16 @@ while (number <= 5) {
     number++;
 }
 console.log("Total sum =", sum);
+
+
+
+// even number print
+
+let j = 1;
+while (j <= 10) {
+    console.log(j);
+    if (j % 2 === 0) {
+        console.log(`even number ${j}`);
+    }
+    j++;
+};

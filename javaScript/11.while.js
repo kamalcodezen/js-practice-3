@@ -16,4 +16,13 @@ while (num < 5) {
     // num = num + 1;
     // num += 1;
 }
-console.log(num);
+
+// 1 - 10 print
+let range = 1;
+while (range <= 10) {
+    console.log(range);
+    range++;
+}
+
+
+// SUM =======

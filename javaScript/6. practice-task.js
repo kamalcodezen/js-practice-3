@@ -23,14 +23,14 @@ for (let num = 0; num <= 100; num++) {
   Qs2.
    Creat a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
  ***********************************/
-// let gameNum  = 25;
-// let userNum = prompt("Guess the correct number");
+let gameNum = 25;
+let userNum = prompt("Guess the correct number");
 
-// while (userNum != gameNum) {
-//     userNum = prompt("you enter a wrong number : again Guess");
-// }
+while (userNum != gameNum) {
+    userNum = prompt("you enter a wrong number : again Guess");
+}
 
-// console.log("you enter the correct number 25");
+console.log("you enter the correct number 25");
 
 
 
@@ -42,10 +42,6 @@ for (let num = 0; num <= 100; num++) {
 // } while (gameNum != userNum);
 
 // console.log("you entered correct number");
-
-
-
-
 
 
 /***************************************

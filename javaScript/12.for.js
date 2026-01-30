@@ -48,5 +48,5 @@ for (let i = 10; i <= 20; i++) {
 
 // decrement 
 for (let j = 20; j >= 10; j--) {
-    console.log(j)
+    console.log(j);
 }

@@ -59,3 +59,20 @@ while (j <= 10) {
     }
     j++;
 };
+
+
+// increment 
+let i = 10;
+while (i <= 20) {
+    console.log(i)
+    i++;
+};
+
+
+
+// decrement
+let n = 20;
+while (n >= 10) {
+    console.log(n);
+    n--;
+}

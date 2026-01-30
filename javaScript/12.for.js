@@ -36,6 +36,17 @@ for (let i = 1; i <= 10; i += 2) {
 let sum = 0;
 for (let i = 200; i <= 250; i++) {
     sum += i;
-    console.log(i)
+    console.log(i);
 }
 console.log(`sum of all numbers from 200 to 250 ${sum}`);
+
+
+// increment value
+for (let i = 10; i <= 20; i++) {
+    console.log(i);
+}
+
+// decrement 
+for (let j = 20; j >= 10; j--) {
+    console.log(j)
+}
